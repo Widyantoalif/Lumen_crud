@@ -8,3 +8,4 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('artikel/get', 'ArtikelController@get');
+$router->post('artikel/add', 'ArtikelController@add');
